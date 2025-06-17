@@ -1,0 +1,39 @@
+Sudoku Drawing with GTK and Cairo (plain.c)
+
+This program utilizes GTK and Cairo libraries to generate a graphical representation of a Sudoku puzzle and its solution.
+Description
+
+The plain.c file contains the source code for a Sudoku visualization tool. It draws a Sudoku grid and populates it with the puzzle and its solution, highlighting the solution numbers in red.
+Requirements
+
+To compile and run this program, you'll need:
+
+    GCC: GNU Compiler Collection
+    GTK+ 3: The GTK+ library version 3
+    Cairo: A 2D graphics library
+
+Make sure you have the necessary development packages installed for GTK and Cairo to successfully compile and run the program.
+
+Usage
+
+    Compilation:
+
+    gcc plain.c -o plain $(pkg-config --cflags --libs gtk+-3.0)
+
+    Execution:
+
+    ./plain <puzzle_file> <solution_file>
+
+    Replace <puzzle_file> and <solution_file> with the paths to the Sudoku puzzle and its solution files, respectively.
+
+    Controls:
+        The program will generate a graphical window displaying the Sudoku puzzle and its solution.
+        Close the window to exit the program.
+
+File Structure
+
+    -plain.c: Contains the main source code for the Sudoku drawing application.
+    
+    -plain.h: Header file containing function prototypes and declarations used in plain.c.
+    
+    -Makefile: Build instructions to compile the program.

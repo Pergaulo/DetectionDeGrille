@@ -1,0 +1,11 @@
+# OCR_PROJECT_S3
+Project OCR S3
+You can go to the different folders to test the functionalities that we have implemented
+All that you have to do is to use to type "make" and to type "./nameoftheexecutable" + the arguments
+Don't forget to make clean when you leave the folder
+
+To use the user interface:
+
+1) Go to User_Interface or User_Interface_Manuscrit depending on whether your sudoku is done by hand or on the computer.
+
+2) Then simply execute ./User_Interface.
